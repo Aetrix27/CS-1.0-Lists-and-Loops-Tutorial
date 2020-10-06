@@ -20,7 +20,7 @@ print(songs)
 #Edits animal list
 animals = ["Hamster", "Ferret", "Chinchilla"]
 animals.append("Kangaroo")
-print(animals[2])
+print(f"Third animal: {animals[2]}")
 del animals[0]
 for animal in animals:
     print(animal)
